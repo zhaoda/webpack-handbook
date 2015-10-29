@@ -4,7 +4,7 @@
 
 ## 贡献内容
 
-如果你想参与这本书的共同创作，修改或者添加内容，可以先[Fork](https://github.com/zhaoda/webpack-handbook)这本书的仓库，然后将修改的内容提交Pull requests；或者创建[Issues](https://github.com/zhaoda/webpack-handbook/issues)。
+如果你想参与这本书的共同创作，修改或添加内容，可以先[Fork](https://github.com/zhaoda/webpack-handbook)这本书的仓库，然后将修改的内容提交Pull requests；或者创建[Issues](https://github.com/zhaoda/webpack-handbook/issues)。
 
 注意，本书内容在`/content`目录中，[gh-pages分支](https://github.com/zhaoda/webpack-handbook/tree/gh-pages)和[Wiki版](https://github.com/zhaoda/webpack-handbook/wiki)是通过脚本自动生成的。
 
@@ -17,6 +17,7 @@
 $ npm install
 
 // 安装gitbook插件
+$ npm install gitbook-cli -g
 $ gitbook install ./content
 
 // 启动gitbook服务开始撰写工作
@@ -34,7 +35,7 @@ $ npm run deploy-gitbook
 // 发布到wiki
 $ npm run deploy-wiki
 
-// 生成并发布，是上面4条命令的别名，通常修改内容后只需要进行这个操作
+// 生成并发布，是上面4条命令的快捷方式，通常编辑内容后只需要进行这个操作
 $ npm run generate-and-deploy
 
 ```
