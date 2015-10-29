@@ -25,6 +25,7 @@
 # Webpack
 
 - [Webpack官方文档](http://webpack.github.io/docs/)
+- [React Webpack cookbook](https://fakefish.github.io/react-webpack-cookbook/)
 
 # 编译
 

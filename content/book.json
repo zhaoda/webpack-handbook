@@ -3,7 +3,7 @@
   "description": "Webpack是当下最热门的前端资源模块化管理和打包工具，本书大部分内容翻译自Webpack官网。",
   "language": "zh",
   "plugins": [
-    "disqus@0.0.4",
+    "disqus",
     "github",
     "edit-link",
     "prism",
@@ -12,7 +12,7 @@
   ],
   "pluginsConfig": {
     "disqus": {
-      "shortName": "zhaoda"
+      "shortName": "webpack-handbook"
     },
     "github": {
       "url": "https://github.com/zhaoda/webpack-handbook"

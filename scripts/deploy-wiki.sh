@@ -7,6 +7,8 @@ cd wiki
 
 # Remove possible existing git repo. We'll replace entire wiki
 rm -rf .git
+rm -rf _book
+rm -rf node_modules
 
 # Init new repo
 git init
