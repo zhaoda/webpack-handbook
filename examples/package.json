@@ -1,0 +1,19 @@
+{
+  "name": "webpack-example",
+  "version": "1.0.0",
+  "description": "A simple webpack example.",
+  "main": "bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "zhaoda",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^0.21.0",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.2"
+  }
+}

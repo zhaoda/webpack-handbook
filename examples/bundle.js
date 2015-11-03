@@ -1,3 +1,4 @@
+/*! This file is created by zhaoda */
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -44,6 +45,7 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
+	// require('!style!css!./style.css')
 	__webpack_require__(1)
 	document.write('It works.')
 	document.write(__webpack_require__(5))
@@ -64,8 +66,8 @@
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../node_modules/css-loader/index.js!./style.css", function() {
-				var newContent = require("!!./../../node_modules/css-loader/index.js!./style.css");
+			module.hot.accept("!!./node_modules/css-loader/index.js!./style.css", function() {
+				var newContent = require("!!./node_modules/css-loader/index.js!./style.css");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
