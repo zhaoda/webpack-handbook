@@ -1,4 +1,4 @@
-# Webpack中文指南
+# Webpack 中文指南
 
 [Webpack](https://github.com/webpack/webpack) 是当下最热门的前端资源模块化管理和打包工具，本书的部分内容翻译自 [Webpack 官方文档](http://webpack.github.io/docs/)。
 

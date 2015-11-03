@@ -7,5 +7,6 @@
   * [安装](start/install.md)
   * [使用](start/usage.md)
   * [Loader](start/loader.md)
+  * [配置](start/configuration.md)
   * [插件](start/plugin.md)
 * [参考链接](reference.md)
