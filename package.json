@@ -34,5 +34,7 @@
     "gh-pages": "^0.4.0",
     "gitbook-cli": "^1.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "ebook-convert": "^1.0.0"
+  }
 }
