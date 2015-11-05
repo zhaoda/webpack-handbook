@@ -1,6 +1,6 @@
 {
   "name": "webpack-handbook",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Webpack中文指南",
   "scripts": {
     "serve-gitbook": "gitbook serve ./content ./gh-pages",
@@ -23,7 +23,7 @@
     "email": "zd6437@gmail.com",
     "url": "http://zhaoda.net"
   },
-  "license": "MIT",
+  "license": "CC-BY-NC-4.0",
   "bugs": {
     "url": "https://github.com/zhaoda/webpack-handbook/issues"
   },
