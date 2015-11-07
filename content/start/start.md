@@ -5,7 +5,8 @@
 * [安装](install.md)
 * [使用](usage.md)
 * [Loader](loader.md)
-* [配置](configuration.md)
+* [配置文件](configuration.md)
 * [插件](plugin.md)
+* [开发环境](development.md)
 * [故障处理](troubleshooting.md)
 
