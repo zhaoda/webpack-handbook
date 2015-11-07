@@ -9,4 +9,5 @@
   * [Loader](start/loader.md)
   * [配置](start/configuration.md)
   * [插件](start/plugin.md)
+  * [故障处理](start/troubleshooting.md)
 * [参考链接](reference.md)

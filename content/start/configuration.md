@@ -4,7 +4,7 @@ Webpack 在执行的时候，除了在命令行传入参数，还可以通过指
 
 继续我们的案例，在根目录创建 `package.json` 来添加 webpack 需要的依赖：
 
-```json
+```js
 {
   "name": "webpack-example",
   "version": "1.0.0",
@@ -49,7 +49,7 @@ module.exports = {
 
 同时简化 `entry.js` 中的 `style.css` 加载方式：
 
-```
+```js
 require('./style.css')
 ```
 

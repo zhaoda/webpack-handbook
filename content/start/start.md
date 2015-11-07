@@ -7,4 +7,5 @@
 * [Loader](loader.md)
 * [配置](configuration.md)
 * [插件](plugin.md)
+* [故障处理](troubleshooting.md)
 
