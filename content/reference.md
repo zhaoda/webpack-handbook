@@ -11,6 +11,7 @@
 - [为什么我推荐 requirejs 而不是 seajs](http://blog.3gcnbeta.com/2014/05/27/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E6%8E%A8%E8%8D%90requirejs-%E8%80%8C%E4%B8%8D%E6%98%AFseajs/)
 - [AMD 和 CMD 的区别有哪些](http://www.zhihu.com/question/20351507)
 - [前端模块化开发的价值](https://github.com/seajs/seajs/issues/547)
+- [What Server Side JavaScript needs](http://www.blueskyonmars.com/2009/01/29/what-server-side-javascript-needs/)
 
 # 模块系统
 
