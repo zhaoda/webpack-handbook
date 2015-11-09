@@ -1,14 +1,15 @@
 {
   "title": "Webpack 中文指南",
   "description": "Webpack 是当下最热门的前端资源模块化管理和打包工具，本书大部分内容翻译自 Webpack 官网。",
-  "language": "zh",
+  "language": "zh-cn",
+  "gitbook": "2.x.x",
   "plugins": [
     "github",
-    "edit-link",
+    "edit-link@1.3.0",
     "prism",
     "-highlight",
     "baidu",
-    "splitter",
+    "-splitter",
     "ad"
   ],
   "pluginsConfig": {
@@ -19,7 +20,7 @@
       "url": "https://github.com/zhaoda/webpack-handbook"
     },
     "edit-link": {
-      "base": "https://github.com/zhaoda/webpack-handbook/blob/master/content",
+      "base": "https://github.com/zhaoda/webpack-handbook/edit/master/content",
       "label": "编辑本页"
     },
     "baidu": {
