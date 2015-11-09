@@ -2,4 +2,5 @@
 
 以下章节是进阶内容。
 
-* [CommonJS](commonjs.md)
+* [CommonJS 规范](commonjs.md)
+* [AMD 规范](amd.md)

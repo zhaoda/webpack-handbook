@@ -12,5 +12,6 @@
   * [开发环境](start/development.md)
   * [故障处理](start/troubleshooting.md)
 * [高级](advanced/index.md)
-  * [CommonJS](advanced/commonjs.md)
+  * [CommonJS 规范](advanced/commonjs.md)
+  * [AMD 规范](advanced/amd.md)
 * [参考链接](reference.md)
