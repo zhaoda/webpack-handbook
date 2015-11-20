@@ -41,6 +41,10 @@ $ npm install
 $ npm install gitbook-cli -g
 $ gitbook install ./content
 
+// 安装 sitemap 插件的依赖
+$ cd ./content/node_modules/gitbook-plugin-sitemap
+$ npm install
+
 // 启动 gitbook 服务开始撰写工作
 $ npm run serve-gitbook
 

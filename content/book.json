@@ -9,7 +9,7 @@
     "prism",
     "baidu",
     "ad",
-    "-sitemap"
+    "sitemap"
   ],
   "pluginsConfig": {
     "github": {
