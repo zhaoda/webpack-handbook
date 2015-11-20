@@ -5,22 +5,17 @@
   "gitbook": "2.x.x",
   "plugins": [
     "github",
-    "edit-link@1.3.0",
+    "editlink",
     "prism",
-    "-highlight",
     "baidu",
-    "-splitter",
     "ad",
     "-sitemap"
   ],
   "pluginsConfig": {
-    "disqus": {
-      "shortName": "webpack-handbook"
-    },
     "github": {
       "url": "https://github.com/zhaoda/webpack-handbook"
     },
-    "edit-link": {
+    "editlink": {
       "base": "https://github.com/zhaoda/webpack-handbook/edit/master/content",
       "label": "编辑本页"
     },
