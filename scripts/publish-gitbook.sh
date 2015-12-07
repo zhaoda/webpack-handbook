@@ -1,4 +1,6 @@
-cp -f content gitbook
+#!/bin/bash
+
+cp -a content gitbook
 cd gitbook
 
 rm -rf _book
@@ -13,4 +15,5 @@ git remote add origin https://git.gitbook.com/zhaoda/webpack.git
 
 git push --force origin master:master
 
+cd ..
 rm -rf gitbook
