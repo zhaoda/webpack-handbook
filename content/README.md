@@ -4,6 +4,9 @@
 
 [Webpack](https://github.com/webpack/webpack) 是当下最热门的前端资源模块化管理和打包工具。它可以将许多松散的模块按照依赖和规则打包成符合生产环境部署的前端资源。还可以将按需加载的模块进行代码分隔，等到实际需要的时候再异步加载。通过 `loader` 的转换，任何形式的资源都可以视作模块，比如 CommonJs 模块、 AMD 模块、 ES6 模块、CSS、图片、 JSON、Coffeescript、 LESS 等。
 
+- 在线阅读：[地址1](http://zhaoda.net/webpack-handbook/)、[地址2](https://www.gitbook.com/book/zhaoda/webpack/details)
+- 下载电子版：[PDF](https://www.gitbook.com/download/pdf/book/zhaoda/webpack)、[EPUB](https://www.gitbook.com/download/epub/book/zhaoda/webpack)、[MOBI](https://www.gitbook.com/download/mobi/book/zhaoda/webpack)
+
 ## 贡献内容
 
 如果你想参与这本书的共同创作，修改或添加内容，可以先 [Fork](https://github.com/zhaoda/webpack-handbook) 这本书的仓库，然后将修改的内容提交 [Pull requests](https://github.com/zhaoda/webpack-handbook/pulls) ；或者创建 [Issues](https://github.com/zhaoda/webpack-handbook/issues)。
@@ -63,7 +66,7 @@ $ npm run generate-and-deploy
 
 ## 更新日志
 
-https://github.com/zhaoda/webpack-handbook/commits/master
+[https://github.com/zhaoda/webpack-handbook/commits/master](https://github.com/zhaoda/webpack-handbook/commits/master)
 
 ## 版权许可
 
