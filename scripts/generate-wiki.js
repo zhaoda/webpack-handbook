@@ -48,7 +48,7 @@ function generateSidebar(config, cb) {
         encoding: 'utf8'
     });
 
-    data = data.replace(/.md/g, '');
+    data = data.replace(/README.md/g, 'Home.md').replace(/.md/g, '');
 
     fs.writeFile(config.output, data, cb);
 }
