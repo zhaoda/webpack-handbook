@@ -40,7 +40,7 @@ module.exports = someValue;
 优点：
 
 -  服务器端模块便于重用
--  [NPM](https://www.npmjs.com) 中已经有将尽20万个可以使用模块包
+-  [NPM](https://www.npmjs.com) 中已经有将近20万个可以使用模块包
 -  简单并容易使用
 
 缺点：
