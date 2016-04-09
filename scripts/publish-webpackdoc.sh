@@ -4,9 +4,6 @@ cp -a content webpackdoc
 cd webpackdoc
 
 rm -rf _book
-rm -rf node_modules
-
-gitbook install
 
 git init
 
