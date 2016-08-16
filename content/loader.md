@@ -58,5 +58,6 @@ npm install css-loader style-loader
 ```bash
 $ webpack entry.js bundle.js --module-bind 'css=style!css!'
 ```
+*有些环境下可能需要输入双引号: –module-bind “css=style!css”*
 
 显然，这两种使用 loader 的方式，效果是一样的。
