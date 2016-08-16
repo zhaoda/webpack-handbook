@@ -4,19 +4,6 @@ Webpack 在执行的时候，除了在命令行传入参数，还可以通过指
 
 继续我们的案例，在根目录创建 `package.json` 来添加 webpack 需要的依赖：
 
-
-但我发现没有写入权限
-`chmod  775 package.json`
-`chmod: Unable to change file mode on .htaccess: Operation not permitted`
-
-当时就郁闷了，root都没有权限，那怎么办。找了半天发觉使用
-```
-chflags -R nouchg .
-sudo chmod  775 package.json
-```
-成功更改权限。
-
-
 ```js
 {
   "name": "webpack-example",
@@ -37,6 +24,12 @@ sudo chmod  775 package.json
     "webpack": "^1.12.2"
   }
 }
+```
+
+```bash
+# 如果没有写入权限，请尝试如下代码更改权限
+chflags -R nouchg .
+sudo chmod  775 package.json
 ```
 
 别忘了运行 `npm install`。

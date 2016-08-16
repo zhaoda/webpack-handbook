@@ -1,6 +1,6 @@
 {
   "name": "webpack-handbook",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Webpack 中文指南",
   "scripts": {
     "serve-gitbook": "gitbook serve ./content ./gh-pages",

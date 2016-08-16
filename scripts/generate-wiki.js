@@ -35,11 +35,11 @@ function generateWiki(input, output, cb) {
             path.join(output, 'Home.md')
         ),
         generateSidebar.bind(null, {
-            input: path.join(input, 'summary.md'),
+            input: path.join(input, 'SUMMARY.md'),
             output: path.join(output, '_Sidebar.md')
         }),
         fs.remove.bind(null, path.join(output, 'README.md')),
-        fs.remove.bind(null, path.join(output, 'summary.md')),
+        fs.remove.bind(null, path.join(output, 'SUMMARY.md')),
     ], cb);
 }
 
@@ -48,7 +48,7 @@ function generateSidebar(config, cb) {
         encoding: 'utf8'
     });
 
-    data = data.replace(/README.md/g, 'Home.md').replace(/.md/g, '');
+    data = data.replace(/README\.md/g, 'Home.md').replace(/\.md/g, '');
 
     fs.writeFile(config.output, data, cb);
 }
