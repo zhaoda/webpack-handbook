@@ -10,7 +10,7 @@
     "generate-and-deploy": "npm run generate-gitbook && npm run generate-wiki && npm run deploy-wiki",
     "publish-gitbook": "./scripts/publish-gitbook.sh",
     "publish-webpackdoc": "./scripts/publish-webpackdoc.sh",
-    "publish": "npm run generate-and-deploy && npm run publish-gitbook && npm run publish-webpackdoc",
+    "publish-all": "npm run generate-and-deploy && npm run publish-gitbook && npm run publish-webpackdoc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
