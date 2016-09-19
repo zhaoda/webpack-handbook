@@ -29,7 +29,7 @@ $ git push origin master
 
 更多参考： [Syncing a fork](https://help.github.com/articles/syncing-a-fork/)
 
-注意，本书内容在 `/content` 目录中， [gh-pages](https://github.com/zhaoda/webpack-handbook/tree/gh-pages) 分支和 [Wiki](https://github.com/zhaoda/webpack-handbook/wiki) 版是通过脚本自动生成的。
+注意，本书内容在 `/content` 目录中， `/docs` 和 [Wiki](https://github.com/zhaoda/webpack-handbook/wiki) 版是通过脚本自动生成的。
 
 ## 生成电子书
 
@@ -52,13 +52,10 @@ $ npm run generate-gitbook
 // 生成 wiki
 $ npm run generate-wiki
 
-// 发布到 gh-pages 分支
-$ npm run deploy-gitbook
-
 // 发布到 wiki
 $ npm run deploy-wiki
 
-// 生成并发布，是上面4条命令的快捷方式，通常编辑内容后只需要进行这个操作
+// 生成并发布，是上面3条命令的快捷方式，通常编辑内容后只需要进行这个操作
 $ npm run generate-and-deploy
 
 ```

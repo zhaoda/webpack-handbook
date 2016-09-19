@@ -1,0 +1,473 @@
+<!DOCTYPE HTML>
+<html lang="zh-cn" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>介绍 | Webpack 中文指南</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="Webpack 是当下最热门的前端资源模块化管理和打包工具，本书大部分内容翻译自 Webpack 官网。">
+        <meta name="generator" content="GitBook 2.5.2">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-prism/prism.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-ad/plugin.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="./preface.html" />
+    
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book" data-level="0" data-chapter-title="介绍" data-filepath="README.md" data-basepath="." data-revision="Tue Sep 20 2016 00:52:39 GMT+0800 (CST)">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter active" data-level="0" data-path="index.html">
+            
+                
+                    <a href="./index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        介绍
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="preface.html">
+            
+                
+                    <a href="./preface.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        前言
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="module-system.html">
+            
+                
+                    <a href="./module-system.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        模块系统
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="what-is-webpack.html">
+            
+                
+                    <a href="./what-is-webpack.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        重复的轮子
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="start.html">
+            
+                
+                    <a href="./start.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        准备开始
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="install.html">
+            
+                
+                    <a href="./install.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        安装
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="usage.html">
+            
+                
+                    <a href="./usage.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        使用
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="loader.html">
+            
+                
+                    <a href="./loader.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        Loader
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="configuration.html">
+            
+                
+                    <a href="./configuration.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.</b>
+                        
+                        配置文件
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="plugin.html">
+            
+                
+                    <a href="./plugin.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.5.</b>
+                        
+                        插件
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="development.html">
+            
+                
+                    <a href="./development.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.6.</b>
+                        
+                        开发环境
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="troubleshooting.html">
+            
+                
+                    <a href="./troubleshooting.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.7.</b>
+                        
+                        故障处理
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="advanced.html">
+            
+                
+                    <a href="./advanced.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        高级
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="commonjs.html">
+            
+                
+                    <a href="./commonjs.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        CommonJS 规范
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="amd.html">
+            
+                
+                    <a href="./amd.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        AMD 规范
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="reference.html">
+            
+                
+                    <a href="./reference.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        参考链接
+                    </a>
+            
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    本书使用 GitBook 发布
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="./" >Webpack 中文指南</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="webpack-&#x4E2D;&#x6587;&#x6307;&#x5357;">Webpack &#x4E2D;&#x6587;&#x6307;&#x5357;</h1>
+<p><a href="https://gitter.im/zhaoda/webpack-handbook?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge&amp;utm_content=badge" target="_blank"><img src="https://badges.gitter.im/Join%20Chat.svg" alt="Join the chat at https://gitter.im/zhaoda/webpack-handbook"></a></p>
+<p><a href="https://github.com/webpack/webpack" target="_blank">Webpack</a> &#x662F;&#x5F53;&#x4E0B;&#x6700;&#x70ED;&#x95E8;&#x7684;&#x524D;&#x7AEF;&#x8D44;&#x6E90;&#x6A21;&#x5757;&#x5316;&#x7BA1;&#x7406;&#x548C;&#x6253;&#x5305;&#x5DE5;&#x5177;&#x3002;&#x5B83;&#x53EF;&#x4EE5;&#x5C06;&#x8BB8;&#x591A;&#x677E;&#x6563;&#x7684;&#x6A21;&#x5757;&#x6309;&#x7167;&#x4F9D;&#x8D56;&#x548C;&#x89C4;&#x5219;&#x6253;&#x5305;&#x6210;&#x7B26;&#x5408;&#x751F;&#x4EA7;&#x73AF;&#x5883;&#x90E8;&#x7F72;&#x7684;&#x524D;&#x7AEF;&#x8D44;&#x6E90;&#x3002;&#x8FD8;&#x53EF;&#x4EE5;&#x5C06;&#x6309;&#x9700;&#x52A0;&#x8F7D;&#x7684;&#x6A21;&#x5757;&#x8FDB;&#x884C;&#x4EE3;&#x7801;&#x5206;&#x9694;&#xFF0C;&#x7B49;&#x5230;&#x5B9E;&#x9645;&#x9700;&#x8981;&#x7684;&#x65F6;&#x5019;&#x518D;&#x5F02;&#x6B65;&#x52A0;&#x8F7D;&#x3002;&#x901A;&#x8FC7; <code>loader</code> &#x7684;&#x8F6C;&#x6362;&#xFF0C;&#x4EFB;&#x4F55;&#x5F62;&#x5F0F;&#x7684;&#x8D44;&#x6E90;&#x90FD;&#x53EF;&#x4EE5;&#x89C6;&#x4F5C;&#x6A21;&#x5757;&#xFF0C;&#x6BD4;&#x5982; CommonJs &#x6A21;&#x5757;&#x3001; AMD &#x6A21;&#x5757;&#x3001; ES6 &#x6A21;&#x5757;&#x3001;CSS&#x3001;&#x56FE;&#x7247;&#x3001; JSON&#x3001;Coffeescript&#x3001; LESS &#x7B49;&#x3002;</p>
+<p><a href="http://zhaoda.net/webpack-handbook" target="_blank">&#x4E3B;&#x7AD9;</a> &#xB7; <a href="https://www.gitbook.com/book/zhaoda/webpack/details" target="_blank">&#x4E0B;&#x8F7D;&#x7535;&#x5B50;&#x7248;</a> &#xB7; <a href="http://webpackdoc.com" target="_blank">&#x56FD;&#x5185;&#x955C;&#x50CF;1</a>&#xFF08;&#x6398;&#x91D1;&#xFF09;&#xB7; <a href="http://wiki.jikexueyuan.com/project/webpack-handbook" target="_blank">&#x56FD;&#x5185;&#x955C;&#x50CF;2</a>&#xFF08;&#x6781;&#x5BA2;&#x5B66;&#x9662;&#xFF09;</p>
+<h2 id="&#x8D21;&#x732E;&#x5185;&#x5BB9;">&#x8D21;&#x732E;&#x5185;&#x5BB9;</h2>
+<p>&#x5982;&#x679C;&#x4F60;&#x60F3;&#x53C2;&#x4E0E;&#x8FD9;&#x672C;&#x4E66;&#x7684;&#x5171;&#x540C;&#x521B;&#x4F5C;&#xFF0C;&#x4FEE;&#x6539;&#x6216;&#x6DFB;&#x52A0;&#x5185;&#x5BB9;&#xFF0C;&#x53EF;&#x4EE5;&#x5148; <a href="https://github.com/zhaoda/webpack-handbook" target="_blank">Fork</a> &#x8FD9;&#x672C;&#x4E66;&#x7684;&#x4ED3;&#x5E93;&#xFF0C;&#x7136;&#x540E;&#x5C06;&#x4FEE;&#x6539;&#x7684;&#x5185;&#x5BB9;&#x63D0;&#x4EA4; <a href="https://github.com/zhaoda/webpack-handbook/pulls" target="_blank">Pull requests</a> &#xFF1B;&#x6216;&#x8005;&#x521B;&#x5EFA; <a href="https://github.com/zhaoda/webpack-handbook/issues" target="_blank">Issues</a>&#x3002;</p>
+<p>Fork &#x540E;&#x7684;&#x4ED3;&#x5E93;&#x5982;&#x4F55;&#x540C;&#x6B65;&#x672C;&#x4ED3;&#x5E93;&#xFF1F;</p>
+<pre><code class="lang-bash">// &#x6DFB;&#x52A0; upstream &#x6E90;&#xFF0C;&#x53EA;&#x9700;&#x6267;&#x884C;&#x4E00;&#x6B21;
+$ git remote add upstream git@github.com:zhaoda/webpack-handbook.git
+
+// &#x62C9;&#x53D6;&#x8FDC;&#x7A0B;&#x4EE3;&#x7801;
+$ git pull upstream master
+
+// &#x63D0;&#x4EA4;&#x4FEE;&#x6539;
+$ git add .
+$ git commit
+
+// &#x66F4;&#x65B0; fork &#x4ED3;&#x5E93;
+$ git push origin master
+</code></pre>
+<p>&#x66F4;&#x591A;&#x53C2;&#x8003;&#xFF1A; <a href="https://help.github.com/articles/syncing-a-fork/" target="_blank">Syncing a fork</a></p>
+<p>&#x6CE8;&#x610F;&#xFF0C;&#x672C;&#x4E66;&#x5185;&#x5BB9;&#x5728; <code>/content</code> &#x76EE;&#x5F55;&#x4E2D;&#xFF0C; <code>/docs</code> &#x548C; <a href="https://github.com/zhaoda/webpack-handbook/wiki" target="_blank">Wiki</a> &#x7248;&#x662F;&#x901A;&#x8FC7;&#x811A;&#x672C;&#x81EA;&#x52A8;&#x751F;&#x6210;&#x7684;&#x3002;</p>
+<h2 id="&#x751F;&#x6210;&#x7535;&#x5B50;&#x4E66;">&#x751F;&#x6210;&#x7535;&#x5B50;&#x4E66;</h2>
+<p>&#x8FD9;&#x672C;&#x4E66;&#x4F7F;&#x7528; <a href="https://github.com/GitbookIO/gitbook" target="_blank">Gitbook</a> &#x64B0;&#x5199;&#x5E76;&#x751F;&#x6210;<a href="http://zhaoda.net/webpack-handbook/" target="_blank">&#x7F51;&#x7AD9;</a>&#xFF0C;&#x8BF7;&#x67E5;&#x770B; <code>package.json</code> &#x4E2D;&#x7684; <code>scripts</code> &#x914D;&#x7F6E;&#x548C; <code>/scripts</code> &#x76EE;&#x5F55;&#x4E2D;&#x7684;&#x811A;&#x672C;&#x6765;&#x4E86;&#x89E3;&#x8FD9;&#x672C;&#x4E66;&#x7684;&#x6784;&#x5EFA;&#x548C;&#x53D1;&#x5E03;&#x8FC7;&#x7A0B;&#x3002;</p>
+<pre><code class="lang-bash">// &#x521D;&#x59CB;&#x5316; nodejs &#x4F9D;&#x8D56;
+$ npm install
+
+// &#x5B89;&#x88C5; gitbook &#x63D2;&#x4EF6;
+$ npm install gitbook-cli -g
+$ gitbook install ./content
+
+// &#x542F;&#x52A8; gitbook &#x670D;&#x52A1;&#x5F00;&#x59CB;&#x64B0;&#x5199;&#x5DE5;&#x4F5C;
+$ npm run serve-gitbook
+
+// &#x751F;&#x6210; gitbook
+$ npm run generate-gitbook
+
+// &#x751F;&#x6210; wiki
+$ npm run generate-wiki
+
+// &#x53D1;&#x5E03;&#x5230; wiki
+$ npm run deploy-wiki
+
+// &#x751F;&#x6210;&#x5E76;&#x53D1;&#x5E03;&#xFF0C;&#x662F;&#x4E0A;&#x9762;<span class="hljs-number">3</span>&#x6761;&#x547D;&#x4EE4;&#x7684;&#x5FEB;&#x6377;&#x65B9;&#x5F0F;&#xFF0C;&#x901A;&#x5E38;&#x7F16;&#x8F91;&#x5185;&#x5BB9;&#x540E;&#x53EA;&#x9700;&#x8981;&#x8FDB;&#x884C;&#x8FD9;&#x4E2A;&#x64CD;&#x4F5C;
+$ npm run generate-and-deploy
+</code></pre>
+<h2 id="&#x66F4;&#x65B0;&#x65E5;&#x5FD7;">&#x66F4;&#x65B0;&#x65E5;&#x5FD7;</h2>
+<p><a href="https://github.com/zhaoda/webpack-handbook/commits/master" target="_blank">https://github.com/zhaoda/webpack-handbook/commits/master</a></p>
+<h2 id="&#x7248;&#x6743;&#x8BB8;&#x53EF;">&#x7248;&#x6743;&#x8BB8;&#x53EF;</h2>
+<p>
+  <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Webpack &#x4E2D;&#x6587;&#x6307;&#x5357;</span> &#x7531; <a xmlns:cc="http://creativecommons.org/ns#" href="http://zhaoda.net/webpack-handbook" property="cc:attributionName" rel="cc:attributionURL" target="_blank">&#x8D75;&#x8FBE;</a> &#x521B;&#x4F5C;&#xFF0C;&#x91C7;&#x7528; <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">&#x77E5;&#x8BC6;&#x5171;&#x4EAB; &#x7F72;&#x540D;-&#x975E;&#x5546;&#x4E1A;&#x6027;&#x4F7F;&#x7528; 4.0 &#x56FD;&#x9645; &#x8BB8;&#x53EF;&#x534F;&#x8BAE;</a>&#x8FDB;&#x884C;&#x8BB8;&#x53EF;&#x3002;
+</p>
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        
+        <a href="./preface.html" class="navigation navigation-next navigation-unique" aria-label="Next page: 前言"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="gitbook/app.js"></script>
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-github/plugin.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-editlink/plugin.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-baidu/plugin.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-ad/plugin.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"github":{"url":"https://github.com/zhaoda/webpack-handbook"},"editlink":{"base":"https://github.com/zhaoda/webpack-handbook/edit/master/content","label":"编辑本页","multilingual":false},"baidu":{"token":"a9787f0ab45d5e237bab522431d0a7ec"},"sharing":{"weibo":true,"twitter":false,"facebook":false,"google":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"ad":{"contentBottom":"%3Cscript%20async%20src%3D%22//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js%22%3E%3C/script%3E%3C%21--%20%u81EA%u9002%u5E94%u9AD8%u53CD%u5DEE%u9ED1%u8272%20--%3E%3Cins%20class%3D%22adsbygoogle%22%20style%3D%22display%3Ablock%22%20data-ad-client%3D%22ca-pub-9798300025848807%22%20data-ad-slot%3D%228607007877%22%20data-ad-format%3D%22auto%22%3E%3C/ins%3E%3Cscript%3E%28adsbygoogle%20%3D%20window.adsbygoogle%20%7C%7C%20%5B%5D%29.push%28%7B%7D%29%3B%3C/script%3E%3C/p%3E%3Cdiv%20id%3D%22disqus_thread%22%3E%3C/div%3E%3Cscript%3E%28function%28%29%20%7Bvar%20d%20%3D%20document%2C%20s%20%3D%20d.createElement%28%27script%27%29%3Bs.src%20%3D%20%27//webpack-handbook.disqus.com/embed.js%27%3Bs.setAttribute%28%27data-timestamp%27%2C%20+new%20Date%28%29%29%3B%28d.head%20%7C%7C%20d.body%29.appendChild%28s%29%3B%7D%29%28%29%3B%3C/script%3E%3Cnoscript%3EPlease%20enable%20JavaScript%20to%20view%20the%20%3Ca%20href%3D%22https%3A//disqus.com/%3Fref_noscript%22%20rel%3D%22nofollow%22%3Ecomments%20powered%20by%20Disqus.%3C/a%3E%3C/noscript%3E"},"sitemap":{"hostname":"http://zhaoda.net/"},"prism":{},"highlight":{},"search":{},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        <script>var _hmt = _hmt || [];(function() {var hm = document.createElement('script');hm.src = '//hm.baidu.com/hm.js?a9787f0ab45d5e237bab522431d0a7ec';var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(hm, s);})();</script>
+    </body>
+    
+</html>

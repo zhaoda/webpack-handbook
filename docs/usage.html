@@ -1,0 +1,469 @@
+<!DOCTYPE HTML>
+<html lang="zh-cn" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>使用 | Webpack 中文指南</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.5.2">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-prism/prism.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-ad/plugin.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="./loader.html" />
+    
+    
+    <link rel="prev" href="./install.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book" data-level="2.2" data-chapter-title="使用" data-filepath="usage.md" data-basepath="." data-revision="Tue Sep 20 2016 00:52:39 GMT+0800 (CST)">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="./index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        介绍
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="preface.html">
+            
+                
+                    <a href="./preface.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        前言
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="module-system.html">
+            
+                
+                    <a href="./module-system.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        模块系统
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="what-is-webpack.html">
+            
+                
+                    <a href="./what-is-webpack.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        重复的轮子
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="start.html">
+            
+                
+                    <a href="./start.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        准备开始
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="install.html">
+            
+                
+                    <a href="./install.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        安装
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.2" data-path="usage.html">
+            
+                
+                    <a href="./usage.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        使用
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="loader.html">
+            
+                
+                    <a href="./loader.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        Loader
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="configuration.html">
+            
+                
+                    <a href="./configuration.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.</b>
+                        
+                        配置文件
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="plugin.html">
+            
+                
+                    <a href="./plugin.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.5.</b>
+                        
+                        插件
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="development.html">
+            
+                
+                    <a href="./development.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.6.</b>
+                        
+                        开发环境
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="troubleshooting.html">
+            
+                
+                    <a href="./troubleshooting.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.7.</b>
+                        
+                        故障处理
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="advanced.html">
+            
+                
+                    <a href="./advanced.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        高级
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="commonjs.html">
+            
+                
+                    <a href="./commonjs.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        CommonJS 规范
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="amd.html">
+            
+                
+                    <a href="./amd.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        AMD 规范
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="reference.html">
+            
+                
+                    <a href="./reference.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        参考链接
+                    </a>
+            
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    本书使用 GitBook 发布
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="./" >Webpack 中文指南</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="&#x4F7F;&#x7528;">&#x4F7F;&#x7528;</h1>
+<p>&#x9996;&#x5148;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x9759;&#x6001;&#x9875;&#x9762; index.html &#x548C;&#x4E00;&#x4E2A; JS &#x5165;&#x53E3;&#x6587;&#x4EF6; entry.js&#xFF1A;</p>
+<pre><code class="lang-html"><span class="hljs-comment">&lt;!-- index.html --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">html</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">meta</span> <span class="hljs-attribute">charset</span>=<span class="hljs-value">&quot;utf-8&quot;</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">head</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">&quot;bundle.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">html</span>&gt;</span>
+</code></pre>
+<pre><code class="lang-js"><span class="hljs-comment">// entry.js</span>
+<span class="hljs-built_in">document</span>.write(<span class="hljs-string">&apos;It works.&apos;</span>)
+</code></pre>
+<p>&#x7136;&#x540E;&#x7F16;&#x8BD1; entry.js &#x5E76;&#x6253;&#x5305;&#x5230; bundle.js&#xFF1A;</p>
+<pre><code class="lang-bash">$ webpack entry.js bundle.js
+</code></pre>
+<p>&#x6253;&#x5305;&#x8FC7;&#x7A0B;&#x4F1A;&#x663E;&#x793A;&#x65E5;&#x5FD7;&#xFF1A;</p>
+<pre><code>Hash: e964f90ec65eb2c29bb9
+Version: webpack 1.12.2
+Time: 54ms
+    Asset     Size  Chunks             Chunk Names
+bundle.js  1.42 kB       0  [emitted]  main
+   [0] ./entry.js 27 bytes {0} [built]
+</code></pre><p>&#x7528;&#x6D4F;&#x89C8;&#x5668;&#x6253;&#x5F00; <code>index.html</code> &#x5C06;&#x4F1A;&#x770B;&#x5230; <code>It works.</code> &#x3002;</p>
+<p>&#x63A5;&#x4E0B;&#x6765;&#x6DFB;&#x52A0;&#x4E00;&#x4E2A;&#x6A21;&#x5757; <code>module.js</code> &#x5E76;&#x4FEE;&#x6539;&#x5165;&#x53E3; <code>entry.js</code>&#xFF1A;</p>
+<pre><code class="lang-js"><span class="hljs-comment">// module.js</span>
+<span class="hljs-built_in">module</span>.exports = <span class="hljs-string">&apos;It works from module.js.&apos;</span>
+</code></pre>
+<pre><code class="lang-js"><span class="hljs-comment">// entry.js</span>
+<span class="hljs-built_in">document</span>.write(<span class="hljs-string">&apos;It works.&apos;</span>)
+<span class="hljs-built_in">document</span>.write(<span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;./module.js&apos;</span>)) <span class="hljs-comment">// &#x6DFB;&#x52A0;&#x6A21;&#x5757;</span>
+</code></pre>
+<p>&#x91CD;&#x65B0;&#x6253;&#x5305; <code>webpack entry.js bundle.js</code> &#x540E;&#x5237;&#x65B0;&#x9875;&#x9762;&#x770B;&#x5230;&#x53D8;&#x5316; <code>It works.It works from module.js.</code></p>
+<pre><code>Hash: 279c7601d5d08396e751
+Version: webpack 1.12.2
+Time: 63ms
+    Asset     Size  Chunks             Chunk Names
+bundle.js  1.57 kB       0  [emitted]  main
+   [0] ./entry.js 66 bytes {0} [built]
+   [1] ./module.js 43 bytes {0} [built]
+</code></pre><p>Webpack &#x4F1A;&#x5206;&#x6790;&#x5165;&#x53E3;&#x6587;&#x4EF6;&#xFF0C;&#x89E3;&#x6790;&#x5305;&#x542B;&#x4F9D;&#x8D56;&#x5173;&#x7CFB;&#x7684;&#x5404;&#x4E2A;&#x6587;&#x4EF6;&#x3002;&#x8FD9;&#x4E9B;&#x6587;&#x4EF6;&#xFF08;&#x6A21;&#x5757;&#xFF09;&#x90FD;&#x6253;&#x5305;&#x5230; bundle.js &#x3002;Webpack &#x4F1A;&#x7ED9;&#x6BCF;&#x4E2A;&#x6A21;&#x5757;&#x5206;&#x914D;&#x4E00;&#x4E2A;&#x552F;&#x4E00;&#x7684; id &#x5E76;&#x901A;&#x8FC7;&#x8FD9;&#x4E2A; id &#x7D22;&#x5F15;&#x548C;&#x8BBF;&#x95EE;&#x6A21;&#x5757;&#x3002;&#x5728;&#x9875;&#x9762;&#x542F;&#x52A8;&#x65F6;&#xFF0C;&#x4F1A;&#x5148;&#x6267;&#x884C; entry.js &#x4E2D;&#x7684;&#x4EE3;&#x7801;&#xFF0C;&#x5176;&#x5B83;&#x6A21;&#x5757;&#x4F1A;&#x5728;&#x8FD0;&#x884C; <code>require</code> &#x7684;&#x65F6;&#x5019;&#x518D;&#x6267;&#x884C;&#x3002;</p>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="./install.html" class="navigation navigation-prev " aria-label="Previous page: 安装"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="./loader.html" class="navigation navigation-next " aria-label="Next page: Loader"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="gitbook/app.js"></script>
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-github/plugin.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-editlink/plugin.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-baidu/plugin.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-ad/plugin.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"github":{"url":"https://github.com/zhaoda/webpack-handbook"},"editlink":{"base":"https://github.com/zhaoda/webpack-handbook/edit/master/content","label":"编辑本页","multilingual":false},"baidu":{"token":"a9787f0ab45d5e237bab522431d0a7ec"},"sharing":{"weibo":true,"twitter":false,"facebook":false,"google":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"ad":{"contentBottom":"%3Cscript%20async%20src%3D%22//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js%22%3E%3C/script%3E%3C%21--%20%u81EA%u9002%u5E94%u9AD8%u53CD%u5DEE%u9ED1%u8272%20--%3E%3Cins%20class%3D%22adsbygoogle%22%20style%3D%22display%3Ablock%22%20data-ad-client%3D%22ca-pub-9798300025848807%22%20data-ad-slot%3D%228607007877%22%20data-ad-format%3D%22auto%22%3E%3C/ins%3E%3Cscript%3E%28adsbygoogle%20%3D%20window.adsbygoogle%20%7C%7C%20%5B%5D%29.push%28%7B%7D%29%3B%3C/script%3E%3C/p%3E%3Cdiv%20id%3D%22disqus_thread%22%3E%3C/div%3E%3Cscript%3E%28function%28%29%20%7Bvar%20d%20%3D%20document%2C%20s%20%3D%20d.createElement%28%27script%27%29%3Bs.src%20%3D%20%27//webpack-handbook.disqus.com/embed.js%27%3Bs.setAttribute%28%27data-timestamp%27%2C%20+new%20Date%28%29%29%3B%28d.head%20%7C%7C%20d.body%29.appendChild%28s%29%3B%7D%29%28%29%3B%3C/script%3E%3Cnoscript%3EPlease%20enable%20JavaScript%20to%20view%20the%20%3Ca%20href%3D%22https%3A//disqus.com/%3Fref_noscript%22%20rel%3D%22nofollow%22%3Ecomments%20powered%20by%20Disqus.%3C/a%3E%3C/noscript%3E"},"sitemap":{"hostname":"http://zhaoda.net/"},"prism":{},"highlight":{},"search":{},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        <script>var _hmt = _hmt || [];(function() {var hm = document.createElement('script');hm.src = '//hm.baidu.com/hm.js?a9787f0ab45d5e237bab522431d0a7ec';var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(hm, s);})();</script>
+    </body>
+    
+</html>
