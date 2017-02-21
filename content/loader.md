@@ -38,7 +38,7 @@ body { background: yellow; }
 修改 entry.js：
 
 ```js
-require("!style!css!./style.css") // 载入 style.css
+require("!style-loader!css-loader!./style.css") // 载入 style.css
 document.write('It works.')
 document.write(require('./module.js'))
 ```
@@ -56,10 +56,10 @@ npm install css-loader style-loader
 将 entry.js 中的 `require("!style!css!./style.css")` 修改为 `require("./style.css")` ，然后执行：
 
 ```bash
-$ webpack entry.js bundle.js --module-bind 'css=style!css'
+$ webpack entry.js bundle.js --module-bind 'css=style-loader!css-loader'
 
 # 有些环境下可能需要使用双引号
-$ webpack entry.js bundle.js --module-bind "css=style!css"
+$ webpack entry.js bundle.js --module-bind "css=style-loader!css-loader"
 ```
 
 显然，这两种使用 loader 的方式，效果是一样的。
