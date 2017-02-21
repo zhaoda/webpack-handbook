@@ -56,7 +56,7 @@
     <body>
         
         
-    <div class="book" data-level="2.4" data-chapter-title="配置文件" data-filepath="configuration.md" data-basepath="." data-revision="Tue Sep 20 2016 01:09:31 GMT+0800 (CST)">
+    <div class="book" data-level="2.4" data-chapter-title="配置文件" data-filepath="configuration.md" data-basepath="." data-revision="Tue Feb 21 2017 16:37:20 GMT+0800 (CST)">
     
 
 <div class="book-summary">
@@ -399,7 +399,7 @@ sudo chmod  <span class="hljs-number">775</span> package.json
   },
   <span class="hljs-built_in">module</span>: {
     loaders: [
-      {test: <span class="hljs-regexp">/\.css$/</span>, loader: <span class="hljs-string">&apos;style!css&apos;</span>}
+      {test: <span class="hljs-regexp">/\.css$/</span>, loader: <span class="hljs-string">&apos;style-loader!css-loader&apos;</span>}
     ]
   }
 }
@@ -407,7 +407,7 @@ sudo chmod  <span class="hljs-number">775</span> package.json
 <p>&#x540C;&#x65F6;&#x7B80;&#x5316; <code>entry.js</code> &#x4E2D;&#x7684; <code>style.css</code> &#x52A0;&#x8F7D;&#x65B9;&#x5F0F;&#xFF1A;</p>
 <pre><code class="lang-js"><span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;./style.css&apos;</span>)
 </code></pre>
-<p>&#x6700;&#x540E;&#x8FD0;&#x884C; <code>webpack</code>&#xFF0C;&#x53EF;&#x4EE5;&#x770B;&#x5230; webpack &#x901A;&#x8FC7;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x6267;&#x884C;&#x7684;&#x7ED3;&#x679C;&#x548C;&#x4E0A;&#x4E00;&#x7AE0;&#x8282;&#x901A;&#x8FC7;&#x547D;&#x4EE4;&#x884C; <code>webpack entry.js bundle.js --module-bind &apos;css=style!css&apos;</code> &#x6267;&#x884C;&#x7684;&#x7ED3;&#x679C;&#x662F;&#x4E00;&#x6837;&#x7684;&#x3002;</p>
+<p>&#x6700;&#x540E;&#x8FD0;&#x884C; <code>webpack</code>&#xFF0C;&#x53EF;&#x4EE5;&#x770B;&#x5230; webpack &#x901A;&#x8FC7;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x6267;&#x884C;&#x7684;&#x7ED3;&#x679C;&#x548C;&#x4E0A;&#x4E00;&#x7AE0;&#x8282;&#x901A;&#x8FC7;&#x547D;&#x4EE4;&#x884C; <code>webpack entry.js bundle.js --module-bind &apos;css=style-loader!css-loader&apos;</code> &#x6267;&#x884C;&#x7684;&#x7ED3;&#x679C;&#x662F;&#x4E00;&#x6837;&#x7684;&#x3002;</p>
 
                     
                     </section>
