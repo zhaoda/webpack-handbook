@@ -59,4 +59,4 @@ module.exports = {
 require('./style.css')
 ```
 
-最后运行 `webpack`，可以看到 webpack 通过配置文件执行的结果和上一章节通过命令行 `webpack entry.js bundle.js --module-bind 'css=style!css'` 执行的结果是一样的。
+最后运行 `webpack`，可以看到 webpack 通过配置文件执行的结果和上一章节通过命令行 `webpack entry.js bundle.js --module-bind 'css=style-loader!css-loader'` 执行的结果是一样的。
