@@ -30,7 +30,7 @@ define('myModule', ['jquery'], function($) {
     $('body').text('hello world');
 });
 // 使用
-define(['myModule'], function(myModule) {});
+require(['myModule'], function(myModule) {});
 ```
 
 注意：在 webpack 中，模块名只有局部作用域，在 Require.js 中模块名是全局作用域，可以在全局引用。
