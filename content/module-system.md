@@ -114,7 +114,7 @@ define(function(require, exports, module) {
 
 ### ES6 模块
 
-EcmaScript6 标准增加了 JavaScript 语言层面的模块体系定义。[ES6 模块](http://es6.ruanyifeng.com/#docs/module)的设计思想，是尽量的静态化，使得编译时就能确定模块的依赖关系，以及输入和输出的变量。CommonJS 和 AMD 模块，都只能在运行时确定这些东西。
+ECMAScript6 标准增加了 JavaScript 语言层面的模块体系定义。[ES6 模块](http://es6.ruanyifeng.com/#docs/module)的设计思想，是尽量的静态化，使得编译时就能确定模块的依赖关系，以及输入和输出的变量。CommonJS 和 AMD 模块，都只能在运行时确定这些东西。
 
 ```js
 import "jquery";
@@ -125,7 +125,7 @@ module "localModule" {}
 优点：
 
 -  容易进行静态分析
--  面向未来的 EcmaScript 标准
+-  面向未来的 ECMAScript 标准
 
 缺点：
 
@@ -172,7 +172,3 @@ require("./image.png");
 同时，为了能利用已经存在的各种框架、库和已经写好的文件，我们还需要一个模块加载的兼容策略，来避免重写所有的模块。
 
 那么接下来，让我们开始 Webpack 的神奇之旅吧。
-
-
-
-
