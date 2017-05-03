@@ -17,4 +17,5 @@ wiki
 *.epub
 *.mobi
 *.pdf
+.DS_Store
 

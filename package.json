@@ -10,7 +10,7 @@
     "generate-and-deploy": "npm run generate-gitbook && npm run generate-wiki && npm run deploy-wiki",
     "publish-gitbook": "./scripts/publish-gitbook.sh",
     "publish-webpackdoc": "./scripts/publish-webpackdoc.sh",
-    "publish-all": "npm run generate-and-deploy && npm run publish-gitbook && npm run publish-webpackdoc",
+    "publish-all": "npm run generate-and-deploy && npm run publish-gitbook",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -31,12 +31,12 @@
   },
   "homepage": "https://github.com/zhaoda/webpack-handbook",
   "dependencies": {
-    "async": "^1.5.0",
-    "fs-extra": "^0.26.0",
-    "gh-pages": "^0.4.0",
-    "gitbook-cli": "^1.0.0"
+    "async": "^2.4.0",
+    "fs-extra": "^3.0.0",
+    "gh-pages": "^0.12.0",
+    "gitbook-cli": "^2.3.0"
   },
   "devDependencies": {
-    "ebook-convert": "^1.0.0"
+    "ebook-convert": "^2.0.1"
   }
 }
