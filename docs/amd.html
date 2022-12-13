@@ -367,7 +367,7 @@
 <pre><code class="lang-js">define(id?: <span class="hljs-built_in">String</span>, dependencies?: <span class="hljs-built_in">String</span>[], factory: <span class="hljs-built_in">Function</span>|<span class="hljs-built_in">Object</span>);
 </code></pre>
 <p><code>id</code> &#x662F;&#x6A21;&#x5757;&#x7684;&#x540D;&#x5B57;&#xFF0C;&#x5B83;&#x662F;&#x53EF;&#x9009;&#x7684;&#x53C2;&#x6570;&#x3002;</p>
-<p><code>dependencies</code> &#x6307;&#x5B9A;&#x4E86;&#x6240;&#x8981;&#x4F9D;&#x8D56;&#x7684;&#x6A21;&#x5757;&#x5217;&#x8868;&#xFF0C;&#x5B83;&#x662F;&#x4E00;&#x4E2A;&#x6570;&#x7EC4;&#xFF0C;&#x4E5F;&#x662F;&#x53EF;&#x9009;&#x7684;&#x53C2;&#x6570;&#xFF0C;&#x6BCF;&#x4E2A;&#x4F9D;&#x8D56;&#x7684;&#x6A21;&#x5757;&#x7684;&#x8F93;&#x51FA;&#x5C06;&#x4F5C;&#x4E3A;&#x53C2;&#x6570;&#x4E00;&#x6B21;&#x4F20;&#x5165; <code>factory</code> &#x4E2D;&#x3002;&#x5982;&#x679C;&#x6CA1;&#x6709;&#x6307;&#x5B9A; <code>dependencies</code>&#xFF0C;&#x90A3;&#x4E48;&#x5B83;&#x7684;&#x9ED8;&#x8BA4;&#x503C;&#x662F; <code>[&quot;require&quot;, &quot;exports&quot;, &quot;module&quot;]</code>&#x3002;</p>
+<p><code>dependencies</code> &#x6307;&#x5B9A;&#x4E86;&#x6240;&#x8981;&#x4F9D;&#x8D56;&#x7684;&#x6A21;&#x5757;&#x5217;&#x8868;&#xFF0C;&#x5B83;&#x662F;&#x4E00;&#x4E2A;&#x6570;&#x7EC4;&#xFF0C;&#x4E5F;&#x662F;&#x53EF;&#x9009;&#x7684;&#x53C2;&#x6570;&#xFF0C;&#x6BCF;&#x4E2A;&#x4F9D;&#x8D56;&#x7684;&#x6A21;&#x5757;&#x7684;&#x8F93;&#x51FA;&#x5C06;&#x4F5C;&#x4E3A;&#x53C2;&#x6570;&#x4F9D;&#x6B21;&#x4F20;&#x5165; <code>factory</code> &#x4E2D;&#x3002;&#x5982;&#x679C;&#x6CA1;&#x6709;&#x6307;&#x5B9A; <code>dependencies</code>&#xFF0C;&#x90A3;&#x4E48;&#x5B83;&#x7684;&#x9ED8;&#x8BA4;&#x503C;&#x662F; <code>[&quot;require&quot;, &quot;exports&quot;, &quot;module&quot;]</code>&#x3002;</p>
 <pre><code class="lang-js">define(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">require, exports, module</span>) </span>{}&#xFF09;
 </code></pre>
 <p><code>factory</code> &#x662F;&#x6700;&#x540E;&#x4E00;&#x4E2A;&#x53C2;&#x6570;&#xFF0C;&#x5B83;&#x5305;&#x88F9;&#x4E86;&#x6A21;&#x5757;&#x7684;&#x5177;&#x4F53;&#x5B9E;&#x73B0;&#xFF0C;&#x5B83;&#x662F;&#x4E00;&#x4E2A;&#x51FD;&#x6570;&#x6216;&#x8005;&#x5BF9;&#x8C61;&#x3002;&#x5982;&#x679C;&#x662F;&#x51FD;&#x6570;&#xFF0C;&#x90A3;&#x4E48;&#x5B83;&#x7684;&#x8FD4;&#x56DE;&#x503C;&#x5C31;&#x662F;&#x6A21;&#x5757;&#x7684;&#x8F93;&#x51FA;&#x63A5;&#x53E3;&#x6216;&#x503C;&#x3002;</p>
@@ -388,7 +388,7 @@
 </code></pre>
 <p>&#x4F9D;&#x8D56;&#x591A;&#x4E2A;&#x6A21;&#x5757;&#x7684;&#x5B9A;&#x4E49;&#xFF1A;</p>
 <pre><code class="lang-js">define([<span class="hljs-string">&apos;jquery&apos;</span>, <span class="hljs-string">&apos;./math.js&apos;</span>], <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">$, math</span>) </span>{
-    <span class="hljs-comment">// $ &#x548C; math &#x4E00;&#x6B21;&#x4F20;&#x5165; factory</span>
+    <span class="hljs-comment">// $ &#x548C; math &#x4F9D;&#x6B21;&#x4F20;&#x5165; factory</span>
     $(<span class="hljs-string">&apos;body&apos;</span>).text(<span class="hljs-string">&apos;hello world&apos;</span>);
 });
 </code></pre>
